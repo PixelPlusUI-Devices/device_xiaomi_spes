@@ -389,6 +389,11 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+PRODUCT_PACKAGES += \
+    SettingsProvider2201117TG \
+    SettingsProvider2201117TI \
+    SettingsProvider2201117TY
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
